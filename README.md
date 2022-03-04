@@ -30,8 +30,3 @@ em file_name;
 
 9 - Rota GET com o endpoint /download-zip com query params (file_extension, compression_ratio) para
 especificar o tipo de arquivo para baixar todos compactados e também a taxa de compressão.
-
-for i in lista_1:
-...: teste = lista_2.split(".")[1]
-...: if teste in i:
-...: print(i)
