@@ -1,0 +1,10 @@
+walk => para pegar um caminho de um diretório e verificar o que tem dentro do diretório
+retornando uma tupla com ("nome da raiz do diretório", "nome de outras pastas dentro do diretório raiz", "arquivos dentro do diretório raiz")
+
+SEND_FILE => 
+
+OS.PATH.ABSPATH => serve para criar uma url para conseguir chegar em um diretório especifico.
+
+SAFE_JOIN => serve para juntar diretorios/cominhos, montar uma url com dois parametros ou mais
+
+ENDSWITH => verifica se uma palavra termina com a frase desejada.
