@@ -11,10 +11,10 @@ def criando_rota_abspath(FILES_DIRECTORY, filename):
     return file_path
 
 
-def listando_todas_imagem(dirs): 
+def listando_todas_imagem(dirs, FILES_DIRECTORY): 
     list_image = []
     for indice in dirs:
-        *_, file = next(os.walk(f"./files/{indice}"))
+        *_, file = next(os.walk(f"{FILES_DIRECTORY}/{indice}"))
         
         for lista in file:
             list_image.append(lista)
